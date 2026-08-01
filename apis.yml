@@ -1,8 +1,29 @@
 aid: sapiens-medicus
 name: Sapiens Medicus
-description: Sapiens Medicus is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sapiens Medicus operates Esculap.io, a consumer digital-health platform
+  offering AI-powered doctor consultations delivered instantly through a web
+  application. Marketed as "Your AI Doctor - Instant Medical Care Anytime," the
+  service promises AI doctor consultations with medical specialist-level
+  accuracy and high diagnostic confidence, with no appointments and no waiting
+  times. Surfaced in the API Evangelist network as a 500 Global portfolio
+  company, it is a consumer-facing React single-page application; as of this
+  enrichment pass no public API, developer portal, SDK, machine-readable
+  OpenAPI/AsyncAPI specification, MCP server, or /.well-known discovery surface
+  is published on the esculap.io domain.
 url: https://raw.githubusercontent.com/api-evangelist/sapiens-medicus/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://esculap.io/social.jpeg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Health
+- Artificial Intelligence
+- Medical
+- Telehealth
+- Consumer Health
+- Diagnostics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sapiens-medicus-domain-security.yml
 - type: Website
   url: https://esculap.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
